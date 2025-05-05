@@ -1,13 +1,13 @@
 # Age Calculator & Future Age Predictor
 
-name = input("Enter your name: ")
-birth_year = int(input("Enter your birth year: "))
-future_year = int(input("Enter a future year you'd like to check: "))
+a = input("Enter your name: ")
+b = int(input("Enter your birth year: "))
+c = int(input("Enter a future year you'd like to check: "))
 
-current_year = 2025
-current_age = current_year - birth_year
-future_age = future_year - birth_year
+d = 2025
+e = d - b
+f = c - b
 
-print("\nHi " + name + "!")
-print("You are currently", current_age, "years old.")
-print("In the year", future_year, "you will be", future_age, "years old.")
+print("\nHi " + a + "!")
+print("You are currently", e, "years old.")
+print("In the year", c, "you will be", f, "years old.")
