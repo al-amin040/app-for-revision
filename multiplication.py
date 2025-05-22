@@ -1,3 +1,8 @@
-if 1 > 2 :
- print ("Five is greater than two.")
+x = "apple"
+y = "banana"
+
+x , y = y , x
+
+print (f"x is now {x} , y is now {y}")
+
 
