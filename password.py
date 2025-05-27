@@ -4,6 +4,11 @@ print("SIGN UP")
 username = input("What is your username? ")
 password = input("What is your password? ")
 password_2 = input("What is your password? ")
+if len(password) < 6 :
+    print("Password too short, must be at least 6 characters.")
+    
+
+
 if password_2 == password :
     print("Account created successfully!")
 else:

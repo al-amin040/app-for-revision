@@ -7,8 +7,8 @@ operation = input("What operation would you like to perform? Add, Subtract, Divi
 stripped_operation = operation.strip()
 operation_list = str("Add, Subtract, Division, Multiplication, Surprise")
 if stripped_operation in operation_list :
- number_1 = int(input(f"Pick one number"))
- number_2 = int(input(f"Pick another number"))
+ number_1 = int(input(f"Pick one number "))
+ number_2 = int(input(f"Pick another number "))
  result_1 = int(number_1 + number_2)
  result_2 = int(number_1 - number_2)
  result_3 = int(number_1 * number_2)
